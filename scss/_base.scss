@@ -1,0 +1,27 @@
+// contains all the resets, variables, mixins, and utility classes
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+$font-writing: "Bai Jamjuree", sans-serif;
+$primary-color-1: hsl(171, 66%, 44%);
+$primary-color-2: hsl(233, 100%, 69%);
+$heading-color: hsl(210, 10%, 33%);
+$font-color: hsl(201, 11%, 66%);
+
+%text-margin {
+  margin: 1em;
+}
+
+%btn {
+  margin: 1em 0;
+  padding: 1em 6em;
+  border: none;
+  border-radius: 2em;
+  color: white;
+  font-size: 1em;
+}
+
+%big-img {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 80%;
+}

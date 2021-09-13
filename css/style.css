@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+p, h2 {
+  margin: 1em;
+}
+
+.download button:last-of-type, .download button:first-of-type {
+  margin: 1em 0;
+  padding: 1em 6em;
+  border: none;
+  border-radius: 2em;
+  color: white;
+  font-size: 1em;
+}
+
+#devices, #computer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+p, h2 {
+  margin: 1em;
+}
+
+.download button:last-of-type, .download button:first-of-type {
+  margin: 1em 0;
+  padding: 1em 6em;
+  border: none;
+  border-radius: 2em;
+  color: white;
+  font-size: 1em;
+}
+
+#devices, #computer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+.download {
+  display: block;
+}
+
+.function {
+  margin-bottom: 8em;
+}
+.function div {
+  margin: 1.8em 1.5em;
+}
+
+.tools {
+  margin: 5em 0;
+}
+.tools div {
+  margin: 3em 1em;
+}
+
+.logo {
+  margin-bottom: 5em;
+}
+.logo img {
+  margin: 3em;
+}
+
+footer {
+  background-color: #f4f4f4;
+  margin-top: 5em;
+  padding-bottom: 5em;
+}
+footer p {
+  color: black;
+}
+
+.icon img {
+  margin: 1em;
+}
+
+p, h2 {
+  margin: 1em;
+}
+
+.download button:last-of-type, .download button:first-of-type {
+  margin: 1em 0;
+  padding: 1em 6em;
+  border: none;
+  border-radius: 2em;
+  color: white;
+  font-size: 1em;
+}
+
+#devices, #computer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+.download button:first-of-type {
+  background-color: #26baa4;
+  box-shadow: 0px 2px 2px 1px #22a591;
+  margin-top: 3em;
+}
+.download button:last-of-type {
+  background-color: #6173ff;
+  box-shadow: 0px 2px 2px 1px #475dff;
+  margin-bottom: 5em;
+}
+
+.img-logo {
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.img-logo:last-of-type {
+  width: 15%;
+}
+
+#devices {
+  margin-bottom: 4em;
+}
+
+body {
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  color: #4c545d;
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: -0.5em;
+}
+
+p {
+  color: #9fabb2;
+  font-size: 1em;
+  line-height: 1.8em;
+}
+
+/*# sourceMappingURL=style.css.map */

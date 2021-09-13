@@ -1,0 +1,30 @@
+@import "./base";
+@import "./layout";
+@import "./component";
+
+body {
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: $font-writing;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  @extend %text-margin;
+  color: $heading-color;
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: -0.5em;
+}
+
+p {
+  @extend %text-margin;
+  color: $font-color;
+  font-size: 1em;
+  line-height: 1.8em;
+}

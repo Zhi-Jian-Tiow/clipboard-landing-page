@@ -1,0 +1,46 @@
+//  all the Sass code handling the layout, which is the container and grid systems
+@import "./base";
+
+.download {
+  display: block;
+}
+
+.function {
+  margin-bottom: 8em;
+
+  div {
+    margin: 1.8em 1.5em;
+  }
+}
+
+.tools {
+  margin: 5em 0;
+
+  div {
+    margin: 3em 1em;
+  }
+}
+
+.logo {
+  margin-bottom: 5em;
+
+  img {
+    margin: 3em;
+  }
+}
+
+footer {
+  background-color: #f4f4f4;
+  margin-top: 5em;
+  padding-bottom: 5em;
+
+  p {
+    color: black;
+  }
+}
+
+.icon {
+  img {
+    margin: 1em;
+  }
+}

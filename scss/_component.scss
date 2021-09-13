@@ -1,0 +1,41 @@
+// everything that is reusable – buttons, navbars, cards, and so on
+
+@import "./base";
+
+// button
+.download {
+  button:first-of-type {
+    @extend %btn;
+    background-color: $primary-color-1;
+    box-shadow: 0px 2px 2px 1px darken($color: $primary-color-1, $amount: 5%);
+    margin-top: 3em;
+  }
+
+  button:last-of-type {
+    @extend %btn;
+    background-color: $primary-color-2;
+    box-shadow: 0px 2px 2px 1px darken($color: $primary-color-2, $amount: 5%);
+    margin-bottom: 5em;
+  }
+}
+
+// logo
+.img-logo {
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.img-logo:last-of-type {
+  width: 15%;
+}
+
+// computer image
+#computer {
+  @extend %big-img;
+}
+
+// devices image
+#devices {
+  @extend %big-img;
+  margin-bottom: 4em;
+}
