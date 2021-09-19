@@ -7,7 +7,7 @@ p, h2 {
 
 .download button:last-of-type, .download button:first-of-type {
   margin: 1em 0;
-  padding: 1em 6em;
+  padding: 1em 5em;
   border: none;
   border-radius: 2em;
   color: white;
@@ -20,13 +20,28 @@ p, h2 {
   width: 80%;
 }
 
+@media screen and (min-width: 768px) {
+  p, h2 {
+    margin: 2em;
+  }
+
+  .download button:last-of-type, .download button:first-of-type {
+    padding: 1.2em 5em;
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  p, h2 {
+    margin: 1em 10em;
+  }
+}
 p, h2 {
   margin: 1em;
 }
 
 .download button:last-of-type, .download button:first-of-type {
   margin: 1em 0;
-  padding: 1em 6em;
+  padding: 1em 5em;
   border: none;
   border-radius: 2em;
   color: white;
@@ -39,6 +54,21 @@ p, h2 {
   width: 80%;
 }
 
+@media screen and (min-width: 768px) {
+  p, h2 {
+    margin: 2em;
+  }
+
+  .download button:last-of-type, .download button:first-of-type {
+    padding: 1.2em 5em;
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  p, h2 {
+    margin: 1em 10em;
+  }
+}
 .download {
   display: block;
 }
@@ -46,8 +76,8 @@ p, h2 {
 .function {
   margin-bottom: 8em;
 }
-.function div {
-  margin: 1.8em 1.5em;
+.function .function-explain div {
+  margin: 3em 1.5em;
 }
 
 .tools {
@@ -59,9 +89,11 @@ p, h2 {
 
 .logo {
   margin-bottom: 5em;
+  display: inline-flex;
+  flex-direction: column;
 }
 .logo img {
-  margin: 3em;
+  margin: 2em;
 }
 
 footer {
@@ -77,13 +109,64 @@ footer p {
   margin: 1em;
 }
 
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 40%;
+  }
+  .logo img {
+    margin: 2.5em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .function {
+    display: flex;
+  }
+  .function .function-explain {
+    margin-left: -5em;
+    margin-top: 2em;
+    text-align: left;
+  }
+  .function .function-explain h3 {
+    margin-left: 2em;
+  }
+  .function .function-explain p {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .tools {
+    display: flex;
+  }
+  .tools div {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  .tools p {
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .logo {
+    flex-direction: row;
+    width: auto;
+  }
+
+  footer {
+    display: flex;
+  }
+  footer .links {
+    display: flex;
+  }
+}
 p, h2 {
   margin: 1em;
 }
 
 .download button:last-of-type, .download button:first-of-type {
   margin: 1em 0;
-  padding: 1em 6em;
+  padding: 1em 5em;
   border: none;
   border-radius: 2em;
   color: white;
@@ -96,6 +179,25 @@ p, h2 {
   width: 80%;
 }
 
+@media screen and (min-width: 768px) {
+  p, h2 {
+    margin: 2em;
+  }
+
+  .download button:last-of-type, .download button:first-of-type {
+    padding: 1.2em 5em;
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  p, h2 {
+    margin: 1em 10em;
+  }
+}
+.download {
+  display: inline-flex;
+  flex-direction: column;
+}
 .download button:first-of-type {
   background-color: #26baa4;
   box-shadow: 0px 2px 2px 1px #22a591;
@@ -120,6 +222,38 @@ p, h2 {
   margin-bottom: 4em;
 }
 
+@media screen and (min-width: 768px) {
+  .download {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .img-logo {
+    margin-bottom: 0em;
+    width: 10%;
+  }
+
+  .img-logo:last-of-type {
+    width: 5%;
+  }
+
+  .download {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5em;
+  }
+  .download button:first-of-type {
+    margin: 2em;
+  }
+  .download button:last-of-type {
+    margin: 2em;
+  }
+
+  #computer {
+    position: relative;
+    left: -5em;
+  }
+}
 body {
   background-image: url("../images/bg-header-mobile.png");
   background-repeat: no-repeat;
@@ -143,6 +277,25 @@ p {
   color: #9fabb2;
   font-size: 1em;
   line-height: 1.8em;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  p {
+    margin: 1em 14em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

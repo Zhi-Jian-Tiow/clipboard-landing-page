@@ -4,6 +4,8 @@
 
 // button
 .download {
+  display: inline-flex;
+  flex-direction: column;
   button:first-of-type {
     @extend %btn;
     background-color: $primary-color-1;
@@ -38,4 +40,41 @@
 #devices {
   @extend %big-img;
   margin-bottom: 4em;
+}
+
+@media screen and (min-width: 768px) {
+  .download {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  // logo
+  .img-logo {
+    margin-bottom: 0em;
+    width: 10%;
+  }
+
+  .img-logo:last-of-type {
+    width: 5%;
+  }
+
+  .download {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5em;
+    button:first-of-type {
+      margin: 2em;
+    }
+
+    button:last-of-type {
+      margin: 2em;
+    }
+  }
+
+  // computer image
+  #computer {
+    position: relative;
+    left: -5em;
+  }
 }

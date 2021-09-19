@@ -8,8 +8,10 @@
 .function {
   margin-bottom: 8em;
 
-  div {
-    margin: 1.8em 1.5em;
+  .function-explain {
+    div {
+      margin: 3em 1.5em;
+    }
   }
 }
 
@@ -23,9 +25,11 @@
 
 .logo {
   margin-bottom: 5em;
+  display: inline-flex;
+  flex-direction: column;
 
   img {
-    margin: 3em;
+    margin: 2em;
   }
 }
 
@@ -42,5 +46,65 @@ footer {
 .icon {
   img {
     margin: 1em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 40%;
+
+    img {
+      margin: 2.5em;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .function {
+    display: flex;
+
+    .function-explain {
+      margin-left: -5em;
+      margin-top: 2em;
+      text-align: left;
+
+      h3 {
+        margin-left: 2em;
+      }
+
+      p {
+        margin-top: 2em;
+        margin-left: 3em;
+        margin-right: 3em;
+      }
+    }
+  }
+
+  .tools {
+    display: flex;
+
+    div {
+      flex-grow: 1;
+      flex-basis: 0;
+    }
+
+    p {
+      margin-top: 2em;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
+
+  .logo {
+    flex-direction: row;
+    width: auto;
+  }
+
+  footer {
+    display: flex;
+
+    .links {
+      display: flex;
+    }
   }
 }
