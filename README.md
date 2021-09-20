@@ -12,11 +12,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="354" alt="screenshot" src="https://user-images.githubusercontent.com/72905506/133982516-215c7922-0b52-42d9-a995-4e192aa331d0.png">
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Zhi-Jian-Tiow/clipboard-landing-page
+- Live Site URL: https://clipboard-landing-page-gilt-seven.vercel.app/
 
 ## My process
 
@@ -43,23 +39,19 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- SCSS
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
 
 ### What I learned
 
+- Basics of SCSS and SCSS file organisation
 
 
 ### Continued development
 
-
+- Continue practicing SCSS 
 
 
 ## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Zhi-Jian-Tiow](https://www.frontendmentor.io/profile/Zhi-Jian-Tiow)
 
