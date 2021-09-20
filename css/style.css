@@ -150,14 +150,55 @@ footer p {
 
   .logo {
     flex-direction: row;
-    width: auto;
+    width: 100%;
+  }
+  .logo img {
+    width: 100%;
+    margin: 1.5em;
   }
 
   footer {
     display: flex;
+    padding-bottom: 0;
+    justify-content: center;
   }
   footer .links {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    text-align: left;
+  }
+  footer .links p {
+    margin: 1em;
+    margin-right: 0;
+    width: 6em;
+    flex-basis: 28%;
+  }
+  footer .links p:nth-of-type(4) {
+    margin-top: -1em;
+  }
+  footer .links p:nth-of-type(5) {
+    margin-top: -1em;
+  }
+  footer .links p:hover {
+    color: #26baa4;
+    cursor: pointer;
+  }
+  footer .icon {
+    margin-top: 7em;
+    margin-left: 5em;
+  }
+  footer .icon img:first-of-type:hover {
+    content: url("../images/icon-facebook-hover.svg");
+    cursor: pointer;
+  }
+  footer .icon img:nth-of-type(2):hover {
+    content: url("../images/icon-twitter-hover.svg");
+    cursor: pointer;
+  }
+  footer .icon img:nth-of-type(3):hover {
+    content: url("../images/icon-instagram-hover.svg");
+    cursor: pointer;
   }
 }
 p, h2 {
@@ -208,6 +249,16 @@ p, h2 {
   box-shadow: 0px 2px 2px 1px #475dff;
   margin-bottom: 5em;
 }
+.download button:first-of-type:hover {
+  background-color: #2ee0c5;
+  box-shadow: 0px 2px 10px 1px #21e4c6;
+  cursor: pointer;
+}
+.download button:last-of-type:hover {
+  background-color: #8e9bfa;
+  box-shadow: 0px 2px 10px 1px #8a97ff;
+  cursor: pointer;
+}
 
 .img-logo {
   margin-top: 5em;
@@ -234,7 +285,8 @@ p, h2 {
   }
 
   .img-logo:last-of-type {
-    width: 5%;
+    width: 6%;
+    margin: 5em;
   }
 
   .download {

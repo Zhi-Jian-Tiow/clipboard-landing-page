@@ -97,14 +97,63 @@ footer {
 
   .logo {
     flex-direction: row;
-    width: auto;
+    width: 100%;
+    
+    img {
+      width: 100%;
+      margin: 1.5em;
+    }
   }
 
   footer {
     display: flex;
+    padding-bottom: 0;
+    justify-content: center;
 
     .links {
       display: flex;
+      flex-wrap: wrap;
+      margin-top: 3em;
+      text-align: left;
+
+      p {
+        margin: 1em;
+        margin-right: 0;
+        width: 6em;
+        flex-basis: 28%;
+      }
+
+      p:nth-of-type(4) {
+        margin-top: -1em;
+      }
+
+      p:nth-of-type(5) {
+        margin-top: -1em;
+      }
+
+      p:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+      }
+    }
+    .icon {
+      margin-top: 7em;
+      margin-left: 5em;
+
+      img:first-of-type:hover {
+        content: url("../images/icon-facebook-hover.svg");
+        cursor: pointer;
+      }
+
+      img:nth-of-type(2):hover {
+        content: url("../images/icon-twitter-hover.svg");
+        cursor: pointer;
+      }
+
+      img:nth-of-type(3):hover {
+        content: url("../images/icon-instagram-hover.svg");
+        cursor: pointer;
+      }
     }
   }
 }
